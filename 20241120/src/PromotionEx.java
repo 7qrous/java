@@ -23,7 +23,5 @@ public class PromotionEx {
         double doubleValue = intValue;
         System.out.println(doubleValue);
 
-        
-
     }
 }

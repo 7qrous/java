@@ -10,7 +10,6 @@ public class Main {
         int y = 2;
         int result = x + y;
         System.out.println(result);
-
 //        int value;
 //        result = value + 10; // 변수 value는 초기화되지 않았기 때문에 연산이 불가능함
 
@@ -19,3 +18,7 @@ public class Main {
         result = value + 10;
     }
 }
+
+/*
+*
+* */

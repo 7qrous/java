@@ -16,6 +16,6 @@
 
 public class DataTypeEx {
     public static void main(String[] args) {
-
+        
     }
 }

@@ -19,7 +19,7 @@ public class PromotionEx {
         System.out.println(longValue);
 
         intValue = 200;
-//        double 타입의 변수에 int 타입의 정수 저장
+//      double 타입의 변수에 int 타입의 정수 저장
         double doubleValue = intValue;
         System.out.println(doubleValue);
 

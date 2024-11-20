@@ -20,6 +20,5 @@ public class CastingEx {
         intValue = (int)doubleValue;
         System.out.println(intValue);
 
-
     }
 }

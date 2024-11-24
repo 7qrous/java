@@ -1,4 +1,4 @@
-package channel;
+package channel1;
 
 import javax.swing.*;
 import java.awt.*;

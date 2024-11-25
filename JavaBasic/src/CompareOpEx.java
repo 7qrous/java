@@ -20,5 +20,14 @@ public class CompareOpEx {
         boolean result7 = (char1 < char2);
         System.out.println("result7 = " + result7);
 
+        int v2 = 1;
+        double v3 = 1.0;
+        System.out.println(v2 == v3);
+
+        double v4 = 0.1;
+        float v5 = 0.1F;
+        System.out.println(v4 == v5);
+        System.out.println((float) v4 == v5);
+        System.out.println((int) (v4 * 10) == (int) (v5 * 10));
     }
 }

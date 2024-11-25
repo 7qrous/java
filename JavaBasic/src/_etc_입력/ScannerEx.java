@@ -1,4 +1,4 @@
-package 입력;
+package _etc_입력;
 
 import java.util.Scanner;
 

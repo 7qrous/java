@@ -1,4 +1,4 @@
-package 시작;
+package _01_시작;
 
 public class HelloWorld {
     public static void main(String[] args) {

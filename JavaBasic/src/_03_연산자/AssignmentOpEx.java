@@ -1,4 +1,4 @@
-package 연산자;
+package _03_연산자;
 
 public class AssignmentOpEx {
     public static void main(String[] args) {

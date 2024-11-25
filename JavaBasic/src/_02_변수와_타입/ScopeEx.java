@@ -1,4 +1,4 @@
-package 변수와_타입;
+package _02_변수와_타입;
 
 public class ScopeEx {
     // 프로그램 시작

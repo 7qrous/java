@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class CharEx {
     public static void main(String[] args) {
         char c1 = 'A'; // char 타입의 변수 c1에 문자를 직접입력

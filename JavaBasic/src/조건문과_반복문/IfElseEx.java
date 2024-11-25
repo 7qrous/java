@@ -1,3 +1,5 @@
+package 조건문과_반복문;
+
 import java.util.Scanner;
 
 public class IfElseEx {

@@ -1,3 +1,4 @@
+package 변수와_타입;
 
 public class LiteralEx {
     public static void main(String[] args) {

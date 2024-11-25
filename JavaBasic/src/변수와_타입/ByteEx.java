@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class ByteEx {
     public static void main(String[] args) {
         // byte type 숫자 하나를 표현 시 1byte를 사용

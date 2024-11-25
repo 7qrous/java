@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class LongEx {
     public static void main(String[] args) {
 

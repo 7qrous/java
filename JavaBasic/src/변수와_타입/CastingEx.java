@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class CastingEx {
     public static void main(String[] args) {
         int intValue = 44032;

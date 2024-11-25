@@ -1,3 +1,5 @@
+package 연산자;
+
 public class AssignmentOpEx {
     public static void main(String[] args) {
         // 변수 result 선언과 동시에 0으로 초기화

@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class IntEx {
     public static void main(String[] args) {
         int var1 = 10;  // 10진수로 저장

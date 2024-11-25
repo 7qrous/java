@@ -1,3 +1,5 @@
+package 연산자;
+
 public class ArithmeticOperatorEx {
     public static void main(String[] args) {
         int v1 = 5;

@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class FloatDoubleEx {
     public static void main(String[] args) {
 //      실수는 소수점 아래의 데이터를 저장할 수 있는 데이터 타입

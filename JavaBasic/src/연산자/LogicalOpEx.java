@@ -1,3 +1,5 @@
+package 연산자;
+
 public class LogicalOpEx {
     public static void main(String[] args) {
         // 문자 A는 10진수로 65

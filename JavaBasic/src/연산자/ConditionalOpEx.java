@@ -1,3 +1,5 @@
+package 연산자;
+
 public class ConditionalOpEx {
     public static void main(String[] args) {
         int score = 85;

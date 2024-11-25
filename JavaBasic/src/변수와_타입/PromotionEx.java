@@ -1,3 +1,5 @@
+package 변수와_타입;
+
 public class PromotionEx {
     public static void main(String[] args) {
         byte byteValue = 10; // byte 타입의 변수에 정수 10 저장

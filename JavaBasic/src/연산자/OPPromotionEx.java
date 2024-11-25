@@ -1,3 +1,5 @@
+package 연산자;
+
 public class OPPromotionEx {
     public static void main(String[] args) {
 

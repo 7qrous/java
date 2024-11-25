@@ -1,3 +1,5 @@
+package 입력;
+
 import java.util.Scanner;
 
 public class ScannerEx {

@@ -10,7 +10,8 @@ public class Quiz5 {
         boolean a = sc.nextBoolean();
         String op = sc.next();
         boolean b = sc.nextBoolean();
-        switch (op) {
+        
+        switch (op.toLowerCase()) {
             case ("and"):
                 System.out.println(a && b);
                 break;

@@ -26,21 +26,13 @@ public class Quiz2 {
         if (x >= 50) {
             if (x <= 100) {
                 resultX = true;
-            } /*else {
-                resultX = false;
-            }*/
-        } /*else {
-            resultX = false;
-        }*/
+            }
+        }
         if (y >= 50) {
             if (y <= 100) {
                 resultY = true;
-            } /*else {
-                resultY = false;
-            }*/
-        } /*else {
-            resultY = false;
-        }*/
+            }
+        }
         if (resultX && resultY) {
             result = "내";
         } else {

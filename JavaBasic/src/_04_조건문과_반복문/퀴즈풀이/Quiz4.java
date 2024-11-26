@@ -26,24 +26,24 @@ public class Quiz4 {
         if (second == 0) {
             second = 1;
         }
-        if (num > 0) {
-            if (num < 100) {
-                if (first % 3 == 0) {
-                    resultFirst = true;
-                }
-                if (second % 3 == 0) {
-                    resultFirst = true;
-                }
-                if (resultFirst || resultSecond) {
-                    if (resultFirst && resultSecond) {
-                        System.out.println("박수짝짝");
-                    }else{
-                        System.out.println("박수짝");
-                    }
-                } else {
-                    System.out.println("박수 없음");
-                }
+        if (num > 0 && num < 100) {
+
+            if (first % 3 == 0) {
+                resultFirst = true;
             }
+            if (second % 3 == 0) {
+                resultSecond = true;
+            }
+            if (resultFirst || resultSecond) {
+                if (resultFirst && resultSecond) {
+                    System.out.println("박수짝짝");
+                } else {
+                    System.out.println("박수짝");
+                }
+            } else {
+                System.out.println("박수 없음");
+            }
+
         } else {
             System.out.println("1~99 사이의 정수로 입력해주세요.");
         }

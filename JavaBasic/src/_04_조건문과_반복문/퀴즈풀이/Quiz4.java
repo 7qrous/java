@@ -20,6 +20,7 @@ public class Quiz4 {
         int second = num % 10;
         boolean resultFirst = false;
         boolean resultSecond = false;
+
         if (first == 0) {
             first = 1;
         }
@@ -27,14 +28,15 @@ public class Quiz4 {
             second = 1;
         }
         if (num > 0 && num < 100) {
-
             if (first % 3 == 0) {
                 resultFirst = true;
             }
             if (second % 3 == 0) {
                 resultSecond = true;
             }
+            // or 연산을 통해서 10의자리와 1의자리에 3의 배수가 몇개 잇는지 연산
             if (resultFirst || resultSecond) {
+                // and 연산을 통해서 10의 자리와 1의 자리에 모두 3의 배수가 있는지 확인
                 if (resultFirst && resultSecond) {
                     System.out.println("박수짝짝");
                 } else {

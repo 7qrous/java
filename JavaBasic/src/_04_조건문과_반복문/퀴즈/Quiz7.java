@@ -10,7 +10,7 @@ public class Quiz7 {
         int dan = sc.nextInt();
         int i = 1;
         while (i < 10) {
-            System.out.println(dan + "*" + i + "=" + dan * i);
+            System.out.println(dan + " * " + i + " = " + dan * i);
             i++;
         }
         sc.close();

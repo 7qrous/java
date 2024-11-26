@@ -8,8 +8,9 @@ public class Quiz6 {
         Scanner sc = new Scanner(System.in);
         System.out.print("N 단을 입력하세요:");
         int dan = sc.nextInt();
+        System.out.println("출력형식 (" + dan + "단): ");
         for (int i = 1; i < 10; i++) {
-            System.out.println(dan + "*" + i + "=" + dan * i);
+            System.out.println(dan + " * " + i + " = " + dan * i);
         }
         sc.close();
     }

@@ -1,4 +1,4 @@
-package _04_조건문과_반복문;
+package _04_조건문과_반복문.퀴즈;
 
 import java.util.Scanner;
 
@@ -9,6 +9,7 @@ public class Quiz1 {
         // 평균 점수 및 총점, 등급을 출력하는 프로그램을 작성하세요.
         // 등급은 95 이상 A+, 90이상 A, 85이상 B+, 80이상 B, 70이상 C, 60이상 D, 60미만 F로 처리
         // 출력 예시 > 당신의 총점은 xxx점 이고, xx.x점이고, 등급은 x입니다.
+
         Scanner sc = new Scanner(System.in);
         System.out.println("< 점수를 입력하세요 >");
         System.out.println("국어:");
@@ -39,6 +40,7 @@ public class Quiz1 {
         } else {
             grade = "F";
         }
+
         System.out.println("당신의 총점은 " + sum + "점이고, 평균은 " + avg + "점이고, 등급은 " + grade + "입니다.");
         sc.close();
     }

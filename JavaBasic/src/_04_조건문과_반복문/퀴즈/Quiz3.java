@@ -1,4 +1,4 @@
-package _04_조건문과_반복문;
+package _04_조건문과_반복문.퀴즈;
 
 import java.util.Scanner;
 
@@ -11,10 +11,13 @@ public class Quiz3 {
         int money = sc.nextInt();
         int w50000 = money / 50000;
         money = money % 50000;
+
         int w10000 = money / 10000;
         money = money % 10000;
+
         int w1000 = money / 1000;
         money = money % 1000;
+
         int w500 = money / 500;
         money = money % 500;
         int w100 = money / 100;

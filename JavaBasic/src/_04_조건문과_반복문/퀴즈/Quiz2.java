@@ -13,7 +13,7 @@ public class Quiz2 {
         int y = sc.nextInt();
 
         System.out.print("점(" + x + "," + y + ")은 ( 50, 50) 과 ( 100, 100)의 사각형 ");
-        if (x >= 50 && x <= 100 && y >= 50 && y <= 100) {
+        if ((x >= 50 && x <= 100) &&(y >= 50 && y <= 100)) {
             System.out.print("내에 있습니다.");
         } else {
             System.out.print("밖에 있습니다.");
@@ -21,3 +21,5 @@ public class Quiz2 {
         sc.close();
     }
 }
+
+

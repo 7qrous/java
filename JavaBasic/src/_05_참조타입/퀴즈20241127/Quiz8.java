@@ -10,9 +10,8 @@ import java.util.Scanner;
 public class Quiz8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         char eng[] = {'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', ',', ' ', 'h', 'e', 'l', 'l', 'o', ' ', 'u', 'n', 'i', 'v', 'e', 'r', 's', 'e'};
-
-
         int engCount[] = new int[26];
         for (int i = 0; i < engCount.length; i++) {
             engCount[i] = 0;
@@ -21,7 +20,9 @@ public class Quiz8 {
             if ('a' <= eng[i] && eng[i] <= 'z') {
                 engCount[eng[i] - 'a']++;
             }
+            System.out.print(eng[i] + " ");
         }
+        System.out.print("\n영어 소문자 1자를 입력하세요>>");
         char inputCharacter = sc.next().charAt(0);
         System.out.println(engCount[(inputCharacter - 'a')]);
 

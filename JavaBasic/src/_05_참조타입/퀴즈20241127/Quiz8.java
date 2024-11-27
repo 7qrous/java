@@ -11,7 +11,7 @@ public class Quiz8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char eng[] = {'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', ',', ' ', 'h', 'e', 'l', 'l', 'o', ' ', 'u', 'n', 'i', 'v', 'e', 'r', 's', 'e'};
-        int count = 0;
+
 
         int engCount[] = new int[26];
         for (int i = 0; i < engCount.length; i++) {

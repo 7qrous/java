@@ -1,4 +1,4 @@
-package _04_조건문과_반복문.퀴즈;
+package _04_조건문과_반복문.퀴즈20241126;
 
 import java.util.Scanner;
 

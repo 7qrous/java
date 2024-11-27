@@ -16,6 +16,7 @@ public class Quiz8 {
         for (int i = 0; i < engCount.length; i++) {
             engCount[i] = 0;
         }
+
         for (int i = 0; i < eng.length; i++) {
             if ('a' <= eng[i] && eng[i] <= 'z') {
                 engCount[eng[i] - 'a']++;

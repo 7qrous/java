@@ -9,12 +9,12 @@ public class Quiz6 {
         System.out.print("배열의 크기를 입력( n<=5 ):");
         int n = sc.nextInt();
         int array[] = new int[n];
-        for ( int i=0; i<n;i++){
-            System.out.print(i+">");
+        for (int i = 0; i < n; i++) {
+            System.out.print(i + "번 index 저장된 내용>");
             array[i] = sc.nextInt();
         }
-        for ( int i=0; i<n;i++){
-            System.out.print(array[i]+" ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(array[i] + " ");
         }
         sc.close();
     }

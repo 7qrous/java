@@ -1,5 +1,7 @@
 package _05_reference_type.example;
 
+import java.util.Arrays;
+
 public class ArrayInArrayEx {
     public static void main(String[] args) {
         // 2차원 배열 선언, 2줄 3칸짜리로 생성
@@ -54,6 +56,19 @@ public class ArrayInArrayEx {
                 System.out.println(numbers[i][j]);
             }
         }
+        System.out.println(numbers[2][2]);//13
+        System.out.println(numbers[3][1]);//17
+        System.out.println(numbers[1][3]);//9
+        numbers[2][2] = 130;
+        numbers[3][1] = 170;
+        numbers[1][3] = 90;
+        System.out.println(numbers[2][2]);//13
+        System.out.println(numbers[3][1]);//17
+        System.out.println(numbers[1][3]);//9
 
+        System.out.println("\n--- 3차원 배열 ----");
+        int num3Arr[][][] = {{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}}, {{100, 200, 300}, {400, 500, 600}, {700, 800, 900}}};
+        System.out.println(num3Arr[0][1][2]); //6
+        System.out.println(num3Arr[2][0][1]); //200
     }
 }

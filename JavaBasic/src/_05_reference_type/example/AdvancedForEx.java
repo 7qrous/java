@@ -18,6 +18,10 @@ public class AdvancedForEx {
         System.out.println("일반 for문 total:" + total);
         total = 0;
         System.out.println("\n---- 향상된 for문으로 모든 내용 출력");
+        /*
+         * 향상된 for문은 index 없이 배열( 컬렉션) 에서 순서대로 데이터를 하나씩 출력하여 지정한 변수에 저장한 후 코드 블록 내에서 사용할 수 있음
+         * 일반 for문은 index가 필요
+         * */
         for (int score : scores) {
             System.out.println(score);
             total += score;

@@ -21,6 +21,6 @@ public class Quiz3 {
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
+
     }
 }

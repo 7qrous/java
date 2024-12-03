@@ -6,6 +6,7 @@ public class Main {
         Car car02 = new Car("EV3");
         Car car03 = new Car("EV3", "회색");
         Car car04 = new Car("EV3", "회색", 200);
+
         System.out.println("car01.company: " + car01.company);
         System.out.println("car01.model: " + car01.model);
         System.out.println("car01.color: " + car01.color);

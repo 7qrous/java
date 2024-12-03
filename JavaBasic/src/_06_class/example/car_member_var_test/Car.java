@@ -1,0 +1,11 @@
+package _06_class.example.car_member_var_test;
+
+public class Car {
+    String company = "현대자동차";
+    String model = "그랜저";
+    String color = "검정";
+    int maxSpeed = 250;
+    int speed;
+
+
+}

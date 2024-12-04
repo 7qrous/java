@@ -10,4 +10,7 @@ public class Calculator {
     static int minus(int x, int y) {
         return x - y;
     }
+    void test(){
+        System.out.println("pi = " + pi);
+    }
 }

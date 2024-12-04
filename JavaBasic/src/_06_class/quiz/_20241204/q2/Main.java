@@ -7,25 +7,9 @@ import java.util.Scanner;
             # 구구단 출력 부분과 사용자 데이터 입력 부분을 서로 다른 메소드로 만들어서 실행
 * */
 public class Main {
-    static void run() {
-        input();
-    }
-
-    static void input() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("출력할 구구단의 단수를 입력해주세요>>");
-        int dan = sc.nextInt();
-        sc.close();
-        output(dan);
-    }
-
-    static void output(int dan) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println((dan) + "*" + (i) + "=" + dan * i);
-        }
-    }
-
     public static void main(String[] args) {
-        run();
+        Gugudan gugudan = new Gugudan();
+        int dan = gugudan.in();
+        gugudan.out(dan);
     }
 }

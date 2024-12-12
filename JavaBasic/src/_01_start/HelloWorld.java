@@ -19,7 +19,3 @@ public class HelloWorld {
         result = value + 10;
     }
 }
-
-/*
-*
-* */
